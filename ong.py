@@ -12,7 +12,7 @@ def productoria(lista):
     for num in lista:
         result *= num
     return result
-
+"""Investigación personal: key.startswith es una condición dentro de la instrucción 'if' que indica que la cadena comience con esos caracteres."""
 def calcular(**kwargs):
     for key, value in kwargs.items():
         # Verifica si la clave comienza con 'fact_'
@@ -20,7 +20,7 @@ def calcular(**kwargs):
             n = value
             # Calcula el factorial
             print(f"El factorial de {n} es {factorial(n)}")
-        # Verifica si la clave comienza con 'prod_'
+        # Verifica si la clave comienza con 'prod_', 
         elif key.startswith('prod_'):
             lista = value
             # Calcula la productoria
